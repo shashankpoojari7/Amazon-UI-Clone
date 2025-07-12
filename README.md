@@ -7,7 +7,6 @@ A  front-end clone of Amazon's homepage, built using **HTML**, **CSS**, and **Ja
 ## 📸 Screenshots
 
 ![Amazon Clone Homepage](static/screenshots/image.png)  
-*(Add your own screenshots in a `screenshots/` folder)*
 
 ---
 
@@ -28,13 +27,4 @@ A  front-end clone of Amazon's homepage, built using **HTML**, **CSS**, and **Ja
 
 ---
 
-## 📁 Folder Structure
-
-amazon-ui-clone/
-├── index.html
-├── style.css
-├── script.js
-├── static/
-  └── images/
-  └── screenshots/
 
