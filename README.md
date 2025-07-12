@@ -25,9 +25,16 @@ A  front-end clone of Amazon's homepage, built using **HTML**, **CSS**, and **Ja
 - **HTML5**
 - **CSS3**
 - **JavaScript (Vanilla)**
-- *(Optional: Bootstrap / Tailwind CSS / Flexbox / Grid)*
 
 ---
 
 ## 📁 Folder Structure
+
+amazon-ui-clone/
+├── index.html
+├── style.css
+├── script.js
+├── static/
+  └── images/
+  └── screenshots/
 
