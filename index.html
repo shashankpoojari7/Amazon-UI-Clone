@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="navbar" id="#top">
+      <div class="nav-logo">
+        <img src="static/images/logo.png" alt="logo" />
+      </div>
+      <div class="nav-address">
+        <div class="location-icon"><i class="fa-solid fa-location-dot" ></i></div>
+        <div class="location-address"><p class="upper-text" style="color: #abb6b6;">Deliver to</p><p class="lower-text">India</p></div>
+      </div>
+      <div class="search-bar">
+        <select name="search-categories">
+          <option value="all" selected>All</option>
+          <option value="Arts & Crafts">Arts & Crafts</option>
+          <option value="Automotive">Automotive</option>
+          <option value="Baby">Baby</option>
+          <option value="Beauty & Personal Care">Beauty & Personal Care</option>
+          <option value="Books">Books</option>
+          <option value="Boys' Fashion">Boys' Fashion</option>
+          <option value="Computers">Computers</option>
+          <option value="Deals">Deals</option>
+          <option value="Digital Music">Digital Music</option>
+          <option value="Electronics">Electronics</option>
+          <option value="Girls' Fashion">Girls' Fashion</option>
+          <option value="Health & Household">Health & Household</option>
+          <option value="Home & Kitchen">Home & Kitchen</option>
+          <option value="Industrial & Scientific">Industrial & Scientific</option>
+          <option value="Kindle Store">Kindle Store</option>
+          <option value="Luggage">Luggage</option>
+          <option value="Men's Fashion">Men's Fashion</option>
+          <option value="Movies & TV">Movies & TV</option>
+          <option value="Music, CDs & Vinyl">Music, CDs & Vinyl</option>
+        </select>
+        <input type="text" placeholder="Search Amazon" />
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <div class="nav-country">
+        <img src="https://flagsapi.com/US/flat/64.png"/ alt="US Flag">
+        <select name="languages" id="languages">
+            <option value="en">EN</option>
+            <option value="es">ES</option>
+            <option value="zh">ZH</option>
+            <option value="hi">HI</option>
+            <option value="ar">AR</option>
+            <option value="bn">BN</option>
+            <option value="pt">PT</option>
+            <option value="ru">RU</option>
+            <option value="ja">JA</option>
+            <option value="de">DE</option>
+          </select>          
+      </div>
+      <div class="login-div">
+        <p class="upper-text">Hello,sign in</p>
+        <select name="accounts">
+            <option value="accounts-and-lists" selected>Account & Lists</option>
+            <option value="sign-in">Sign-In</option>
+            <option value="login-in">Login-In</option>
+        </select>
+      </div>
+      <div class="returns-and-orders">
+        <p class="upper-text">Returns</p><p class="lower-text">& Orders</p>
+      </div>
+      <div class="cart">
+        <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+        <div class="cart-text">Cart</div>
+      </div>
+    </div>
+    <div class="categories">
+      <div class="cat-icon l-m"><i class="fa-solid fa-bars" id="menu"></i></span>All</div>
+      <div>Today's Deals</div>
+      <div>Customer Service</div>
+      <div>Registry</div>
+      <div>Gift Cards</div>
+      <div>Sell</div>
+    </div>
+
+
+    <!-- Main Body starts -->
+    <div class="main-body">
+      <div class="bg-img">
+        <div class="image-container" id="imgs">
+          <img src="static/images/img1.jpg" alt="" />
+          <img src="static/images/img2.jpg" alt="" />
+          <img src="static/images/img3.jpg" alt="" />
+          <img src="static/images/img4.jpg" alt="" />
+          <img src="static/images/img5.jpg" alt="" />
+      </div>
+      <div class="button-container">
+          <button id="pre" class="btn pre"><p>&lt</p></button>
+          <button id="next" class="btn next"><p>&gt</p></button>
+      </div>
+      </div>
+      <div class="products">
+        <div class="info-bar">
+          <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="https://www.amazon.in/">Click here to go to amazon.in</a></p>
+        </div>
+
+
+        <div class="product-containers">
+          <div class="product-four-pic-container">
+            <div class="pictext"><p>Gaming accessories</p></div>
+            <div class="pics">
+              <div class="pic1">
+                <img src="static/images/G-headset.jpg" alt="Gaming Headset">
+                <p>Headsets</p>
+              </div>
+              <div class="pic2">
+                <img src="static/images/G-keyboard.jpg" alt="Gaming Keyboard">
+                <p>Keyboard</p>
+              </div>
+              <div class="pic3">
+                <img src="static/images/G-mouse.jpg" alt="Gaming Mouse">
+                <p>Computer mice</p>
+              </div>
+              <div class="pic4">
+                <img src="static/images/G-chair.jpg" alt="Gaming Chair">
+                <p>Chairs</p>
+              </div>
+            </div>
+            <div class="seemore">
+              <a href="#">See more..</a>
+            </div>
+          </div>
+          <div class="product-one-pic-container">
+            <div class="pictext"><p>Get your game on</p></div>
+            <div class="one-pic">
+              <img src="static/images/G-cpu.jpg" alt="Gaming CPU">
+            </div>
+            <div class="seemore">
+              <a href="#">Shop gaming</a>
+            </div>
+          </div>
+          <div class="product-four-pic-container">
+            <div class="pictext"><p>Gaming accessories</p></div>
+            <div class="pics">
+              <div class="pic1">
+                <img src="static/images/home-essentials-1.jpg" alt="image">
+                <p>Headsets</p>
+              </div>
+              <div class="pic2">
+                <img src="static/images/home-essentials-2.jpg" alt="image">
+                <p>Keyboard</p>
+              </div>
+              <div class="pic3">
+                <img src="static/images/home-essentials-2.jpg" alt="image">
+                <p>Computer mice</p>
+              </div>
+              <div class="pic4">
+                <img src="static/images/home-essentials-4.jpg" alt="image">
+                <p>Chairs</p>
+              </div>
+            </div>
+            <div class="seemore">
+              <a href="#">Discover more in home</a>
+            </div>
+          </div>
+          <div class="product-one-three-pic-container">
+            <div class="pictext"><p>Top categories in Kitchen appliances</p></div>
+            <div class="one-three-pics">
+              <div class="product-one-three-pic-container-div1">
+                <img src="static/images/kitchen-appliances-1.jpg" alt="cooker">
+                <p>Cooker</p>
+              </div>
+              <div class="product-one-three-pic-container-div2">
+                <span><img src="static/images/kitchen-appliances-2.jpg" alt="cooker">
+                <p>coffee</p></span>
+                <span><img src="static/images/kitchen-appliances-3.jpg" alt="cooker">
+                <p>Pots and Pans</p></span>
+                <span><img src="static/images/kitchen-appliances-4.jpg" alt="cooker">
+                <p>kettles</p></span>
+              </div>
+            </div>
+            <div class="seemore">
+              <a href="#">Discover more in home</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="product-containers"> 
+          <div class="product-four-pic-container">
+            <div class="pictext"><p>New home arrivals under $50</p></div>
+            <div class="pics">
+              <div class="pic1">
+                <img src="static/images/home-arrivals-1.jpg" alt="Gaming Headset">
+                <p>Kitchen and Dining</p>
+              </div>
+              <div class="pic2">
+                <img src="static/images/home-arrivals-2.jpg" alt="Gaming Keyboard">
+                <p>Home improvement</p>
+              </div>
+              <div class="pic3">
+                <img src="static/images/home-arrivals-3.jpg" alt="Gaming Mouse">
+                <p>Decor</p>
+              </div>
+              <div class="pic4">
+                <img src="static/images/home-arrivals-4.jpg" alt="Gaming Chair">
+                <p>Bedding & bath</p>
+              </div>
+            </div>
+            <div class="seemore">
+              <a href="#">See more..</a>
+            </div>
+          </div>
+          <div class="product-four-pic-container">
+            <div class="pictext"><p>Shop deals in Fashion</p></div>
+            <div class="pics">
+              <div class="pic1">
+                <img src="static/images/fashion-1.jpg" alt="Gaming Headset">
+                <p>Jeans under $50</p>
+              </div>
+              <div class="pic2">
+                <img src="static/images/fashion-2.jpg" alt="Gaming Keyboard">
+                <p>Tops under $25</p>
+              </div>
+              <div class="pic3">
+                <img src="static/images/fashion-3.jpg" alt="Gaming Mouse">
+                <p>Dresses under $30</p>
+              </div>
+              <div class="pic4">
+                <img src="static/images/fashion-4.jpg" alt="Gaming Chair">
+                <p>Shoes under $50</p>
+              </div>
+            </div>
+            <div class="seemore">
+              <a href="#">See more..</a>
+            </div>
+          </div>
+          <div class="product-four-pic-container">
+            <div class="pictext"><p>Fashion trends you like</p></div>
+            <div class="pics">
+              <div class="pic1">
+                <img src="static/images/fashion-5.jpg" alt="Gaming Headset">
+                <p>Dresses</p>
+              </div>
+              <div class="pic2">
+                <img src="static/images/fashion-6.jpg" alt="Gaming Keyboard">
+                <p>Knits</p>
+              </div>
+              <div class="pic3">
+                <img src="static/images/fashion-7.jpg" alt="Gaming Mouse">
+                <p>Jackets</p>
+              </div>
+              <div class="pic4">
+                <img src="static/images/fashion-8.jpg" alt="Gaming Chair">
+                <p>Jewelry</p>
+              </div>
+            </div>
+            <div class="seemore">
+              <a href="#">See more..</a>
+            </div>
+          </div>
+          <div class="product-four-pic-container">
+            <div class="pictext"><p>Refresh your space</p></div>
+            <div class="pics">
+              <div class="pic1">
+                <img src="static/images/home-arrivals-5.jpg" alt="Gaming Headset">
+                <p>Dining</p>
+              </div>
+              <div class="pic2">
+                <img src="static/images/home-arrivals-6.jpg" alt="Gaming Keyboard">
+                <p>Home</p>
+              </div>
+              <div class="pic3">
+                <img src="static/images/home-arrivals-7.jpg" alt="Gaming Mouse">
+                <p>Kitchen</p>
+              </div>
+              <div class="pic4">
+                <img src="static/images/home-arrivals-8.jpg" alt="Gaming Chair">
+                <p>Health and Beauty</p>
+              </div>
+            </div>
+            <div class="seemore">
+              <a href="#">See more..</a>
+            </div>
+          </div>
+        </div> 
+
+        
+        <div class="product-containers">
+          <div class="product-four-pic-container">
+            <div class="pictext"><p>Gaming accessories</p></div>
+            <div class="pics">
+              <div class="pic1">
+                <img src="static/images/G-headset.jpg" alt="Gaming Headset">
+                <p>Headsets</p>
+              </div>
+              <div class="pic2">
+                <img src="static/images/G-keyboard.jpg" alt="Gaming Keyboard">
+                <p>Keyboard</p>
+              </div>
+              <div class="pic3">
+                <img src="static/images/G-mouse.jpg" alt="Gaming Mouse">
+                <p>Computer mice</p>
+              </div>
+              <div class="pic4">
+                <img src="static/images/G-chair.jpg" alt="Gaming Chair">
+                <p>Chairs</p>
+              </div>
+            </div>
+            <div class="seemore">
+              <a href="#">See more..</a>
+            </div>
+          </div>
+          <div class="product-one-pic-container">
+            <div class="pictext"><p>Get your game on</p></div>
+            <div class="one-pic">
+              <img src="static/images/G-cpu.jpg" alt="Gaming CPU">
+            </div>
+            <div class="seemore">
+              <a href="#">Shop gaming</a>
+            </div>
+          </div>
+          <div class="product-four-pic-container">
+            <div class="pictext"><p>Gaming accessories</p></div>
+            <div class="pics">
+              <div class="pic1">
+                <img src="static/images/home-essentials-1.jpg" alt="image">
+                <p>Headsets</p>
+              </div>
+              <div class="pic2">
+                <img src="static/images/home-essentials-2.jpg" alt="image">
+                <p>Keyboard</p>
+              </div>
+              <div class="pic3">
+                <img src="static/images/home-essentials-2.jpg" alt="image">
+                <p>Computer mice</p>
+              </div>
+              <div class="pic4">
+                <img src="static/images/home-essentials-4.jpg" alt="image">
+                <p>Chairs</p>
+              </div>
+            </div>
+            <div class="seemore">
+              <a href="#">Discover more in home</a>
+            </div>
+          </div>
+          <div class="product-one-three-pic-container">
+            <div class="pictext"><p>Top categories in Kitchen appliances</p></div>
+            <div class="one-three-pics">
+              <div class="product-one-three-pic-container-div1">
+                <img src="static/images/kitchen-appliances-1.jpg" alt="cooker">
+                <p>Cooker</p>
+              </div>
+              <div class="product-one-three-pic-container-div2">
+                <span><img src="static/images/kitchen-appliances-2.jpg" alt="cooker">
+                <p>coffee</p></span>
+                <span><img src="static/images/kitchen-appliances-3.jpg" alt="cooker">
+                <p>Pots and Pans</p></span>
+                <span><img src="static/images/kitchen-appliances-4.jpg" alt="cooker">
+                <p>kettles</p></span>
+              </div>
+            </div>
+            <div class="seemore">
+              <a href="#">Discover more in home</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="product-containers"> 
+          <div class="product-four-pic-container">
+            <div class="pictext"><p>New home arrivals under $50</p></div>
+            <div class="pics">
+              <div class="pic1">
+                <img src="static/images/home-arrivals-1.jpg" alt="Gaming Headset">
+                <p>Kitchen and Dining</p>
+              </div>
+              <div class="pic2">
+                <img src="static/images/home-arrivals-2.jpg" alt="Gaming Keyboard">
+                <p>Home improvement</p>
+              </div>
+              <div class="pic3">
+                <img src="static/images/home-arrivals-3.jpg" alt="Gaming Mouse">
+                <p>Decor</p>
+              </div>
+              <div class="pic4">
+                <img src="static/images/home-arrivals-4.jpg" alt="Gaming Chair">
+                <p>Bedding & bath</p>
+              </div>
+            </div>
+            <div class="seemore">
+              <a href="#">See more..</a>
+            </div>
+          </div>
+          <div class="product-four-pic-container">
+            <div class="pictext"><p>Shop deals in Fashion</p></div>
+            <div class="pics">
+              <div class="pic1">
+                <img src="static/images/fashion-1.jpg" alt="Gaming Headset">
+                <p>Jeans under $50</p>
+              </div>
+              <div class="pic2">
+                <img src="static/images/fashion-2.jpg" alt="Gaming Keyboard">
+                <p>Tops under $25</p>
+              </div>
+              <div class="pic3">
+                <img src="static/images/fashion-3.jpg" alt="Gaming Mouse">
+                <p>Dresses under $30</p>
+              </div>
+              <div class="pic4">
+                <img src="static/images/fashion-4.jpg" alt="Gaming Chair">
+                <p>Shoes under $50</p>
+              </div>
+            </div>
+            <div class="seemore">
+              <a href="#">See more..</a>
+            </div>
+          </div>
+          <div class="product-four-pic-container">
+            <div class="pictext"><p>Fashion trends you like</p></div>
+            <div class="pics">
+              <div class="pic1">
+                <img src="static/images/fashion-5.jpg" alt="Gaming Headset">
+                <p>Dresses</p>
+              </div>
+              <div class="pic2">
+                <img src="static/images/fashion-6.jpg" alt="Gaming Keyboard">
+                <p>Knits</p>
+              </div>
+              <div class="pic3">
+                <img src="static/images/fashion-7.jpg" alt="Gaming Mouse">
+                <p>Jackets</p>
+              </div>
+              <div class="pic4">
+                <img src="static/images/fashion-8.jpg" alt="Gaming Chair">
+                <p>jewelry</p>
+              </div>
+            </div>
+            <div class="seemore">
+              <a href="#">See more..</a>
+            </div>
+          </div>
+          <div class="product-four-pic-container">
+            <div class="pictext"><p>Refresh your space</p></div>
+            <div class="pics">
+              <div class="pic1">
+                <img src="static/images/home-arrivals-5.jpg" alt="Gaming Headset">
+                <p>Dining</p>
+              </div>
+              <div class="pic2">
+                <img src="static/images/home-arrivals-6.jpg" alt="Gaming Keyboard">
+                <p>Home</p>
+              </div>
+              <div class="pic3">
+                <img src="static/images/home-arrivals-7.jpg" alt="Gaming Mouse">
+                <p>Kitchen</p>
+              </div>
+              <div class="pic4">
+                <img src="static/images/home-arrivals-8.jpg" alt="Gaming Chair">
+                <p>Health and Beauty</p>
+              </div>
+            </div>
+            <div class="seemore">
+              <a href="#">See more..</a>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="footer1">
+        <hr>
+        <h2>See personalized recommendations</h2>
+        <button class="sign-in">Sign in</button>
+        <p>New Customer?  <a href="#">Start here</a></p>
+        <hr>
+      </div>
+      <a href="#top"><div class="footer2">
+        Back to top
+      </div></a>
+      <div class="footer3">
+        <div class="footer3-text">
+          <ol>
+            <li class="li-heading">Get to Know Us</li>
+            <li>Careers</li>
+            <li>Blog</li>
+            <li>About Amazon</li>
+            <li>Investor Relations</li>
+            <li>Amazon Devices</li>
+            <li>Amazon Science</li>
+          </ol>
+        </div>
+        <div class="space"></div>
+        <div class="footer3-text">
+          <ol>
+            <li class="li-heading">Make Money with Us</li>
+            <li>Sell products on Amazon</li>
+            <li>Sell on Amazon Business</li>
+            <li>Sell apps on Amazon</li>
+            <li>Become an Affiliate</li>
+            <li>Advertise Your Products</li>
+            <li>Self-Publish with Us</li>
+            <li>Host an Amazon Hub</li>
+            <li>See More Make Money with Us</li>
+          </ol>
+        </div>
+        <div class="space"></div>
+        <div class="footer3-text">
+          <ol>
+            <li class="li-heading">Amazon Payment Products</li>
+            <li>Amazon Business Card</li>
+            <li>Shop with Points</li>
+            <li>Reload Your Balance</li>
+            <li>Amazon Currency Converter</li>
+          </ol>
+        </div>
+        <div class="space"></div>
+        <div class="footer3-text">
+          <ol>
+            <li class="li-heading">Let Us Help You</li>
+            <li>Amazon and COVID-19</li>
+            <li>Your Account</li>
+            <li>Your Orders</li>
+            <li>Shipping Rates & Policies</li>
+            <li>Returns & Replacements</li>
+            <li>Manage Your Content and Devices</li>
+            <li>Help</li>
+          </ol>
+        </div>
+      </div>
+      <div class="footer4">
+        <div class="footer4-img">
+          <a href="index.html"><img src="static/images/logo.png"  alt="Amazon"></a>
+        </div>
+        <div class="footer4-lang">
+          <i class="fa-solid fa-globe"></i>
+          <span>English</span>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="footer4-currency">
+          <span>$</span>USD - U.S. Dollar
+        </div>
+        <div class="footer4-country">
+          <img src="static/images/https://flagsapi.com/US/flat/64.png"/ alt="US Flag">
+          <span>United states</span>
+        </div>
+      </div>
+
+    </div>
+    <script src="static/images/script.js"></script>
+  </body>
+</html>
